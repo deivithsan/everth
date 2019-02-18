@@ -1,220 +1,713 @@
-@extends('layouts.principal')
-@section('contenido')
+@include('layouts.principal')
 
-    <div class="row">
-            <br>
-            <div class="col-lg-8">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <section id="hv">
-                        <div class="card-title text-center">
-                            <h1>Hoja de vida </h1>
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/principal/2.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+        <div class="row home-content__main">
+
+            <h3>FOR.EVERTH</h3>
+
+            <h1>
+                We are a creative group <br>
+                of people who design <br>
+                influential brands and <br>
+                digital experiences.
+            </h1>
+
+            <div class="home-content__buttons">
+                <a href="#contact" class="smoothscroll btn btn--stroke">
+                    Start a Project
+                </a>
+                <a href="#about" class="smoothscroll btn btn--stroke">
+                    More About Us
+                </a>
+            </div>
+
+        </div>
+
+        <div class="home-content__scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <span>Scroll Down</span>
+            </a>
+        </div>
+
+        <div class="home-content__line"></div>
+
+    </div> <!-- end home-content -->
+
+
+    <ul class="home-social">
+        <li>
+            <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+        </li>
+        <li>
+            <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+        </li>
+        <li>
+            <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+        </li>
+        <li>
+            <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+        </li>
+        <li>
+            <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+        </li>
+    </ul>
+    <!-- end home-social -->
+
+</section> <!-- end s-home -->
+
+
+<!-- about
+================================================== -->
+<section id='about' class="s-about">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--dark">Hello There</h3>
+            <h1 class="display-1 display-1--light">We Are Glint</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+            </p>
+        </div>
+    </div> <!-- end about-desc -->
+
+    <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+        <div class="col-block stats__col ">
+            <div class="stats__count">127</div>
+            <h5>Awards Received</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">1505</div>
+            <h5>Cups of Coffee</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">109</div>
+            <h5>Projects Completed</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">102</div>
+            <h5>Happy Clients</h5>
+        </div>
+
+    </div> <!-- end about-stats -->
+
+    <div class="about__line"></div>
+
+</section> <!-- end s-about -->
+
+
+<!-- services
+================================================== -->
+<section id='services' class="s-services">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">What We Do</h3>
+            <h1 class="display-2">We’ve got everything you need to launch and grow your business</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row services-list block-1-2 block-tab-full">
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-paint-brush"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Brand Identity</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-group"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Illustration</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-megaphone"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Marketing</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-earth"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Web Design</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-cube"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Packaging Design</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon"><i class="icon-lego-block"></i></div>
+            <div class="service-text">
+                <h3 class="h2">Web Development</h3>
+                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                </p>
+            </div>
+        </div>
+
+    </div> <!-- end services-list -->
+
+</section> <!-- end s-services -->
+
+
+<!-- works
+================================================== -->
+<section id='works' class="s-works">
+
+    <div class="intro-wrap">
+
+        <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Recent Works</h3>
+                <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+    </div> <!-- end intro-wrap -->
+
+    <div class="row works-content">
+        <div class="col-full masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/lady-shutterbug.jpg"
+                                     srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                            </a>
                         </div>
-                        <div class="recent-comment text-dark">
-                            <br>
-                            <h2 class="text-center font-italic">PERFIL PROFESIONAL</h2>
-                            <br>
-                            <p class="text-dark">Abogado titulado y Contador Públicos, especializado en Derecho Administrativo y
-                                docencia en educación superior, vinculado a la administración pública con más de
-                                20 años de experiencia en áreas de consultoría y asesoría.</p>
-                            <p class="text-dark"> La tecnología en Administración financiero y de sistemas, permitió la combinación
-                                del desarrollo software orientado hacia la administración pública en temas legales y
-                                financieros.</p>
-                            <p class="text-dark">Su mayor empeño es liderar procesos de calidad, eficiencia y economía que
-                                permitan sembrar las bases de una nueva sociedad.</p>
-                            <p class="text-dark">Su incursión en el mundo de los libros parte de la necesidad de escribir sobre los
-                                temas de actualidad y de dejar una propuesta para la toma de decisiones
-                                administrativas tanto locales como nacionales para mejorar la calidad de vida de los
-                                habitantes del territorio nacional.</p>
-                            <p class="text-dark">Su estudio comenzó con la formación técnica en administración, bibliotecología y
-                                Archivo y Criminalística y balística, que le abrieron el camino a las carreras
-                                profesionales y especializaciones complementada con los recientes diplomados en
-                                Contratación pública, gerencia pública y gestión de calidad.</p>
-                            <p class="text-dark">Su experiencia y profesionalismo le ha permitido crear múltiples empresas públicas
-                                y privadas y alcanzar logros de reconocimiento nacional, premiados por el
-                                Departamento Nacional de Planeación.</p>
-                            <p class="text-dark">Actualmente, se desempeña como independiente y abogado litigante y asesor de
-                                entidades públicas y privadas.</p>
-                            <br>
-                            <h2 class="text-center font-italic">FORMACIÓN ACADEMICA</h2>
-                            <br>
-                            <h3 class="text-left">UNIVERSITARIOS</h3>
-                            <br>
-                            <ul>
-                                <li>Universidad Libre de Colombia</li>
-                                <li>Especialización en Derecho administrativo</li>
-                                <li>Bogotá – 2012</li>
-                                <br>
-                                <li>Universidad Piloto de Colombia</li>
-                                <li>Contador Público</li>
-                                <li>Girardot - 2003</li>
-                                <br>
-                                <li>Universidad de Medellín</li>
-                                <li>Contratación Estatal con énfasis en Supervisión e interventoría</li>
-                                <li>Medellín -2014</li>
-                                <br>
-                                <li>Servicios de Nacional de Enseñanza SENA</li>
-                                <li>Especialización en orientación de Procesos de Formación</li>
-                                <li>Girardot - 2012</li>
-                                <br>
-                                <li>Universidad de Cundinamarca</li>
-                                <li>Licenciatura en Matemática y Física</li>
-                                <li> Fusagasugá - 1997</li>
-                                <br>
-                            </ul>
-                            <br>
-                            <h3 class="text-left">DIPLOMADOS</h3>
-                            <br>
-                            <ul>
-                                <li>ICONTEC</li>
-                                <li>Gestor Sistemas de Gestión de Calidad ISO</li>
-                                <li>Medellín - 2014</li>
-                                <br>
-                                <li>ICONTEC</li>
-                                <li>Auditor Interno en sistemas de Gestión de Calidad ISO</li>
-                                <li>Medellín - 2015</li>
-                                <br>
-                                <li>UNIVERSIDAD ESAP</li>
-                                <li>Gerencia Pública y Desarrollo Regional</li>
-                                <li>Girardot - 2004</li>
-                                <br>
-                            </ul>
-                            <br>
-                            <h3 class="text-left">ESTUDIOS TECNICOS Y TECNOLOGICOS</h3>
-                            <br>
-                            <ul>
-                                <li>Técnico en Criminalística y Balística</li>
-                                <li>Unidad de Policía Técnica Judicial PTJ</li>
-                                <li>Girardot 1996</li>
-                                <br>
-                                <li>Técnico en Bibliotecología y Archivo</li>
-                                <li>COLCULTURA.</li>
-                                <li>Bogotá 1992</li>
-                                <br>
-                                <li>Tecnólogo en Administración Financiera</li>
-                                <li>INESPRO</li>
-                                <li>Bogotá 1990</li>
-                                <br>
-                            </ul>
-                            <h2 class="text-center font-italic">EXPERIENCIA LABORAL</h2>
-                            <br>
-                            <h4>Algunas entidades donde ha laborado</h4>
-                            <br>
-                            <ul>
-                                <li>Asesor Gobernación de San Andrés</li>
-                                <li>Asesor Gobernación Antioquia</li>
-                                <li>Asesor SENA – Girardot</li>
-                                <li>Asesor SENA – Fusagasugá</li>
-                                <li>Asesor Alcaldía de Girardot</li>
-                                <li>Asesor Alcaldía de Providencia y Santa Catalina Islas</li>
-                                <li>Asesor Alcaldía de Ricaurte, Cundinamarca</li>
-                                <li>Asesor Alcaldía de Viotá, Cundinamarca</li>
-                                <li>Asesor Alcaldía de Anolaima, Cundinamarca</li>
-                                <li>Asesor Alcaldía Municipio de Agua de Dios.</li>
-                                <li>Asesor Alcaldía Municipio de Melgar, Tolima</li>
-                                <li>Jefe de Presupuesto de INDEPORTES Antioquia Medellín.</li>
-                                <li>Secretario de Gobierno de Agua de Dios</li>
-                                <li>Inspector de Policía de Agua de Dios.</li>
-                                <br>
-                            </ul>
-                            <h2 class="text-center font-italic">EMPLEADO EMPRESA PRIVADA</h2>
-                            <br>
-                            <ul>
-                                <li>CIUDAD REPTILIA – Melgar</li>
-                                <li>TROPICAL FAUNA LTDA – Melgar</li>
-                                <li>ABOGADOS ASOCIADOS – Bogotá</li>
-                                <li>Otras empresas.</li>
-                                <br>
-                            </ul>
-                            <center><a href="{{ asset('files/hv.pdf') }}" class="btn btn-primary btn-flat btn-addon btn-lg m-b-10 m-l-5">Ver La Hoja de Vida</a></center>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
                         </div>
-                        </section>
-                        <section id="cundinamarca">
-                            <hr>
-                        <div class="card-title text-center">
-                            <h1>Cundinamarca</h1>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
-                        <div class="recent-comment">
-                            <p>Cundinamarca</p>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
                         </div>
-                        </section>
-                        <section id="logros">
-                            <hr>
-                        <div class="card-title text-center">
-                            <h1>Logros</h1>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
                         </div>
-                            <br>
-                        <div class="recent-comment">
-                            <h2 class="text-center font-italic">LOGROS PERSONALES</h2>
-                            <br>
-                            <ul>
-                                <li><b>Autor del Libro</b></li>
-                                <li>EL RETO DE SER ELEGIDO EN CARGOS DE ELECCIÓN POPULAR, Primer Edición privada, 156 Pág. 2015</li>
-                                <li>EL NUEVO ESTADO la Confianza, Edición privada 198 pág. 2018</li>
-                                <br>
-                                <li><b>Autor del Software</b></li>
-                                <li>GALATEA: ERP sistema financiero para la administración pública</li>
-                                <li>SIAP – SISTEMA INTEGRAL PARA LA ADMINISTRACION PUBLICA</li>
-                                <li>SIEX - Sistema Integral de Expedientes Virtuales ver. www.siex.com.co</li>
-                                <br>
-                                <li><b>Reconocimiento Institucional</b></li>
-                                <li>Premio al Municipio de Nilo 2006 – Reconocimiento por obtención de dos mil millones de pesos al Municipio Mejor esfuerzo fiscal de Cundinamarca.</li>
-                                <br>
-                            </ul>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                         </div>
-                        </section>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Beetle
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/grow-green.jpg"
+                                     srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Grow Green
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/guitarist.jpg"
+                                     srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Guitarist
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/palmeira.jpg"
+                                     srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Palmeira
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+            </div> <!-- end masonry -->
+        </div> <!-- end col-full -->
+    </div> <!-- end works-content -->
+
+</section> <!-- end s-works -->
+
+
+<!-- clients
+================================================== -->
+<section id="clients" class="s-clients">
+
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Our Clients</h3>
+            <h1 class="display-2">Glint has been honored to
+                partner up with these clients</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row clients-outer" data-aos="fade-up">
+        <div class="col-full">
+            <div class="clients">
+
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
+                <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+
+            </div> <!-- end clients -->
+        </div> <!-- end col-full -->
+    </div> <!-- end clients-outer -->
+
+    <div class="row clients-testimonials" data-aos="fade-up">
+        <div class="col-full">
+            <div class="testimonials">
+
+                <div class="testimonials__slide">
+
+                    <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
+                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
+                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+
+                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Tim Cook</span>
+                        <span class="testimonials__pos">CEO, Apple</span>
+                    </div>
+
+                </div>
+
+                <div class="testimonials__slide">
+
+                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+
+                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Sundar Pichai</span>
+                        <span class="testimonials__pos">CEO, Google</span>
+                    </div>
+
+                </div>
+
+                <div class="testimonials__slide">
+
+                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+
+                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__info">
+                        <span class="testimonials__name">Satya Nadella</span>
+                        <span class="testimonials__pos">CEO, Microsoft</span>
+                    </div>
+
+                </div>
+
+            </div><!-- end testimonials -->
+
+        </div> <!-- end col-full -->
+    </div> <!-- end client-testimonials -->
+
+</section> <!-- end s-clients -->
+
+
+<!-- contact
+================================================== -->
+<section id="contact" class="s-contact">
+
+    <div class="overlay"></div>
+    <div class="contact__line"></div>
+
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Contact Us</h3>
+            <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+        </div>
+    </div>
+
+    <div class="row contact-content" data-aos="fade-up">
+
+        <div class="contact-primary">
+
+            <h3 class="h6">Send Us A Message</h3>
+
+            <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <fieldset>
+
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+            <!-- contact-warning -->
+            <div class="message-warning">
+                Something went wrong. Please try again.
+            </div>
+
+            <!-- contact-success -->
+            <div class="message-success">
+                Your message was sent, thank you!<br>
+            </div>
+
+        </div> <!-- end contact-primary -->
+
+        <div class="contact-secondary">
+            <div class="contact-info">
+
+                <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                <div class="cinfo">
+                    <h5>Where to Find Us</h5>
+                    <p>
+                        1600 Amphitheatre Parkway<br>
+                        Mountain View, CA<br>
+                        94043 US
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Email Us At</h5>
+                    <p>
+                        contact@glintsite.com<br>
+                        info@glintsite.com
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Call Us At</h5>
+                    <p>
+                        Phone: (+63) 555 1212<br>
+                        Mobile: (+63) 555 0100<br>
+                        Fax: (+63) 555 0101
+                    </p>
+                </div>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                    </li>
+                </ul> <!-- end contact-social -->
+
+            </div> <!-- end contact-info -->
+        </div> <!-- end contact-secondary -->
+
+    </div> <!-- end contact-content -->
+
+</section> <!-- end s-contact -->
+
+
+<!-- footer
+================================================== -->
+<footer>
+
+    <div class="row footer-main">
+
+        <div class="col-six tab-full left footer-desc">
+
+            <div class="footer-logo"></div>
+            Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+
+        </div>
+
+        <div class="col-six tab-full right footer-subscribe">
+
+            <h4>Get Notified</h4>
+            <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+
+            <div class="subscribe-form">
+                <form id="mc-form" class="group" novalidate="true">
+                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                    <input type="submit" name="subscribe" value="Subscribe">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+            </div>
+
+        </div>
+
+    </div> <!-- end footer-main -->
+
+    <div class="row footer-bottom">
+
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>© Copyright Glint 2017</span>
+                <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    </div> <!-- end footer-bottom -->
+
+</footer> <!-- end footer -->
+
+
+
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                "Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        <div class="col-lg-4">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="text-center">
-                            <div class="card-two">
-                                <h2>Contacto</h2>
-                                <br>
-                                <div class="contacts">
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-envelope"></i></a>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-title">
-                            <h2>Noticias</h2>
-                        </div>
-                        <div class="recent-comment">
-                            <div class="media no-border">
-                                <div class="media-left">
-                                    <a href="#"><img alt="..." src="{{ asset('img/principal/1.png') }}" class="media-object"></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Luis Moya</h4>
-                                    <p>Visita a Agua de Dios programada. </p>
-                                    <div class="comment-date">Octubre 28, 2018</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="text-center">
-                            <h3>Haz parte de nuestro proyecto!</h3>
-                            <button class="btn btn-primary btn-rounded m-b-10 m-l-5">Registro</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="text-center">
-                            <button type="button" class="btn btn-primary btn-flat btn-addon btn-lg m-b-10 m-l-5">Descargar formulario de firmas</button>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+            "Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
             </div>
         </div>
 
     </div>
-@stop
+
+</div> <!-- end photoSwipe background -->
+
+
+<!-- preloader
+================================================== -->
+<div id="preloader">
+    <div id="loader">
+        <div class="line-scale-pulse-out">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ asset('js/plugins.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
