@@ -31,8 +31,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="{{ asset('images/principal/logo.png') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('images/principal/logo.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/principal/logo2.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/principal/logo2.png') }}" type="image/x-icon">
 
     @yield('css')
 </head>
