@@ -59,13 +59,10 @@
             <ul class="header-nav__list">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                <li><a class="smoothscroll"  href="#services" title="services">Que vamos a hacer</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Galeria</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contactame</a></li>
             </ul>
-
-            <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
 
             <ul class="header-nav__social">
                 <li>

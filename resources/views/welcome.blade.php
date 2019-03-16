@@ -12,20 +12,20 @@
             <h3>FOR.EVERTH</h3>
 
             <h1>
-                We are a creative group <br>
-                of people who design <br>
-                influential brands and <br>
-                digital experiences.
+                Pagina en <br>
+                proceso de <br>
+                desarrollo.
             </h1>
 
+
             <div class="home-content__buttons">
-                <a href="#contact" class="smoothscroll btn btn--stroke">
-                    Start a Project
-                </a>
-                <a href="#about" class="smoothscroll btn btn--stroke">
-                    More About Us
-                </a>
-            </div>
+               <a href="#contact" class="smoothscroll btn btn--stroke">
+                   Contactanos
+               </a>
+               <a href="#" class="smoothscroll btn btn--stroke">
+                  <i class="fa fa-download"></i> Formulario
+               </a>
+           </div>
 
         </div>
 
@@ -68,15 +68,15 @@
 
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead subhead--dark">Hello There</h3>
-            <h1 class="display-1 display-1--light">We Are Glint</h1>
+            <h3 class="subhead subhead--dark">Hola a todos</h3>
+            <h1 class="display-1 display-1--light">FOR.EVERTH</h1>
         </div>
     </div> <!-- end section-header -->
 
     <div class="row about-desc" data-aos="fade-up">
         <div class="col-full">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                Pagina en proceso de desarrollo, las imagenes, el diseño y la información puede ser cambiada en cualquier momento.
             </p>
         </div>
     </div> <!-- end about-desc -->
@@ -85,19 +85,35 @@
 
         <div class="col-block stats__col ">
             <div class="stats__count">127</div>
-            <h5>Awards Received</h5>
+            <h5>Barrio 1</h5>
         </div>
         <div class="col-block stats__col">
             <div class="stats__count">1505</div>
-            <h5>Cups of Coffee</h5>
+            <h5>Barrio 2</h5>
         </div>
         <div class="col-block stats__col">
             <div class="stats__count">109</div>
-            <h5>Projects Completed</h5>
+            <h5>Barrio 3</h5>
         </div>
         <div class="col-block stats__col">
             <div class="stats__count">102</div>
-            <h5>Happy Clients</h5>
+            <h5>Barrio 4</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">102</div>
+            <h5>Barrio 5</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">102</div>
+            <h5>Barrio 6</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">102</div>
+            <h5>Barrio 7</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">1002</div>
+            <h5>Barrio 8</h5>
         </div>
 
     </div> <!-- end about-stats -->
@@ -113,8 +129,8 @@
 
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">What We Do</h3>
-            <h1 class="display-2">We’ve got everything you need to launch and grow your business</h1>
+            <h3 class="subhead">Que vamos a hacer</h3>
+            <h1 class="display-2">Estamos al tanto de sus necesidades</h1>
         </div>
     </div> <!-- end section-header -->
 
@@ -125,10 +141,8 @@
                 <i class="icon-paint-brush"></i>
             </div>
             <div class="service-text">
-                <h3 class="h2">Brand Identity</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">1</h3>
+                <p>a.
                 </p>
             </div>
         </div>
@@ -138,10 +152,8 @@
                 <i class="icon-group"></i>
             </div>
             <div class="service-text">
-                <h3 class="h2">Illustration</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">2</h3>
+                <p>b.
                 </p>
             </div>
         </div>
@@ -151,10 +163,8 @@
                 <i class="icon-megaphone"></i>
             </div>
             <div class="service-text">
-                <h3 class="h2">Marketing</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">3</h3>
+                <p>c.
                 </p>
             </div>
         </div>
@@ -164,10 +174,8 @@
                 <i class="icon-earth"></i>
             </div>
             <div class="service-text">
-                <h3 class="h2">Web Design</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">4</h3>
+                <p>d.
                 </p>
             </div>
         </div>
@@ -177,10 +185,8 @@
                 <i class="icon-cube"></i>
             </div>
             <div class="service-text">
-                <h3 class="h2">Packaging Design</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">5</h3>
+                <p>e.
                 </p>
             </div>
         </div>
@@ -188,10 +194,8 @@
         <div class="col-block service-item" data-aos="fade-up">
             <div class="service-icon"><i class="icon-lego-block"></i></div>
             <div class="service-text">
-                <h3 class="h2">Web Development</h3>
-                <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                <h3 class="h2">6</h3>
+                <p>f.
                 </p>
             </div>
         </div>
@@ -209,8 +213,8 @@
 
         <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Recent Works</h3>
-                <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+                <h3 class="subhead">Galeria</h3>
+                <h1 class="display-2 display-2--light">En esta sección encontraran las fotos mas recientes</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -224,18 +228,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                <img src="images/portfolio/lady-shutterbug.jpg"
-                                     srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/1.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/1.jpg') }}"
+                                     srcset="{{ asset('images/principal/1.jpg') }} 1x, {{ asset('images/principal/1.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Shutterbug
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                for.everth
                             </p>
                         </div>
 
@@ -244,7 +248,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for everth.</p>
                         </div>
 
                     </div>
@@ -254,18 +258,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/3.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/3.jpg') }}"
+                                     srcset="{{ asset('images/principal/3.jpg') }} 1x, {{ asset('images/principal/3.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Woodcraft
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                for.everth
                             </p>
                         </div>
 
@@ -274,7 +278,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for.everth</p>
                         </div>
 
                     </div>
@@ -284,18 +288,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/the-beetle.jpg"
-                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/4.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/4.jpg') }}"
+                                     srcset="{{ asset('images/principal/4.jpg') }} 1x, {{ asset('images/principal/4.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                The Beetle
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Web Development
+                               for.everth
                             </p>
                         </div>
 
@@ -304,7 +308,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for.everth.</p>
                         </div>
 
                     </div>
@@ -314,18 +318,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                <img src="images/portfolio/grow-green.jpg"
-                                     srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/5.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/5.jpg') }}"
+                                     srcset="{{ asset('images/principal/5.jpg') }} 1x, {{ asset('images/principal/5.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Grow Green
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                for.everth
                             </p>
                         </div>
 
@@ -334,7 +338,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for.everth.</p>
                         </div>
 
                     </div>
@@ -344,18 +348,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                <img src="images/portfolio/guitarist.jpg"
-                                     srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/10.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/10.jpg') }}"
+                                     srcset="{{ asset('images/principal/10.jpg') }} 1x, {{ asset('images/principal/10.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Guitarist
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                for.everth
                             </p>
                         </div>
 
@@ -364,7 +368,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for.everth.</p>
                         </div>
 
                     </div>
@@ -374,18 +378,18 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                <img src="images/portfolio/palmeira.jpg"
-                                     srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+                            <a href="{{ asset('images/principal/12.jpg') }}" class="thumb-link" data-size="1050x700">
+                                <img src="{{ asset('images/principal/12.jpg') }}"
+                                     srcset="{{ asset('images/principal/12.jpg') }} 1x, {{ asset('images/principal/12.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Palmeira
+                                for.everth
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                for.everth
                             </p>
                         </div>
 
@@ -394,7 +398,7 @@
                         </a>
 
                         <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            <p>for.everth.</p>
                         </div>
 
                     </div>
@@ -406,88 +410,6 @@
 
 </section> <!-- end s-works -->
 
-
-<!-- clients
-================================================== -->
-<section id="clients" class="s-clients">
-
-    <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead">Our Clients</h3>
-            <h1 class="display-2">Glint has been honored to
-                partner up with these clients</h1>
-        </div>
-    </div> <!-- end section-header -->
-
-    <div class="row clients-outer" data-aos="fade-up">
-        <div class="col-full">
-            <div class="clients">
-
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-                <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
-
-            </div> <!-- end clients -->
-        </div> <!-- end col-full -->
-    </div> <!-- end clients-outer -->
-
-    <div class="row clients-testimonials" data-aos="fade-up">
-        <div class="col-full">
-            <div class="testimonials">
-
-                <div class="testimonials__slide">
-
-                    <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
-
-                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Tim Cook</span>
-                        <span class="testimonials__pos">CEO, Apple</span>
-                    </div>
-
-                </div>
-
-                <div class="testimonials__slide">
-
-                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-
-                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Sundar Pichai</span>
-                        <span class="testimonials__pos">CEO, Google</span>
-                    </div>
-
-                </div>
-
-                <div class="testimonials__slide">
-
-                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__info">
-                        <span class="testimonials__name">Satya Nadella</span>
-                        <span class="testimonials__pos">CEO, Microsoft</span>
-                    </div>
-
-                </div>
-
-            </div><!-- end testimonials -->
-
-        </div> <!-- end col-full -->
-    </div> <!-- end client-testimonials -->
-
-</section> <!-- end s-clients -->
-
-
 <!-- contact
 ================================================== -->
 <section id="contact" class="s-contact">
@@ -497,8 +419,7 @@
 
     <div class="row section-header" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">Contact Us</h3>
-            <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            <h3 class="subhead">Contactame</h3>
         </div>
     </div>
 
@@ -506,27 +427,27 @@
 
         <div class="contact-primary">
 
-            <h3 class="h6">Send Us A Message</h3>
+            <h3 class="h6">Envia un mensaje</h3>
 
             <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                 <fieldset>
 
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="contactName" type="text" id="contactName" placeholder="Su Nombre" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Su Email" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Tema" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Mensaje" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary">Enviar</button>
                         <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
+                            <div class="text-loader">Enviando...</div>
                             <div class="s-loader">
                                 <div class="bounce1"></div>
                                 <div class="bounce2"></div>
@@ -553,27 +474,27 @@
         <div class="contact-secondary">
             <div class="contact-info">
 
-                <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                <h3 class="h6 hide-on-fullwidth">Infoamción de Contacto</h3>
 
                 <div class="cinfo">
-                    <h5>Where to Find Us</h5>
+                    <h5>Donde me encuentro</h5>
                     <p>
-                        1600 Amphitheatre Parkway<br>
-                        Mountain View, CA<br>
-                        94043 US
+                        1600<br>
+                        San Andres, COL<br>
+                        94043
                     </p>
                 </div>
 
                 <div class="cinfo">
-                    <h5>Email Us At</h5>
+                    <h5>Contactame a estos correos</h5>
                     <p>
-                        contact@glintsite.com<br>
-                        info@glintsite.com
+                        contact@gmail.com<br>
+                        info@gmail.com
                     </p>
                 </div>
 
                 <div class="cinfo">
-                    <h5>Call Us At</h5>
+                    <h5>Número de telefono</h5>
                     <p>
                         Phone: (+63) 555 1212<br>
                         Mobile: (+63) 555 0100<br>
