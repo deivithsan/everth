@@ -125,78 +125,27 @@
 
 <!-- services
 ================================================== -->
-<section id='services' class="s-services">
+<section id='MAPPA' class="s-services" style="background-image: url('images/principal/mappa_l.png');">
 
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">Que vamos a hacer</h3>
-            <h1 class="display-2">Estamos al tanto de sus necesidades</h1>
+            <div class="subhead">
+                <img src="{{ asset('images/principal/logo_mappa.png') }}">
+            </div>
+            <h1 class="display-2">MOVIMIENTO AMPLIO POR EL PROGRESO DEL ARCHIPIÉLAGO</h1>
         </div>
     </div> <!-- end section-header -->
 
     <div class="row services-list block-1-2 block-tab-full">
 
         <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon">
-                <i class="icon-paint-brush"></i>
-            </div>
             <div class="service-text">
-                <h3 class="h2">1</h3>
-                <p>a.
-                </p>
+                <img src="{{ asset('images/principal/mappa_1.png') }}" style="height: 100%; width: 100%">
             </div>
         </div>
-
         <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon">
-                <i class="icon-group"></i>
-            </div>
             <div class="service-text">
-                <h3 class="h2">2</h3>
-                <p>b.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon">
-                <i class="icon-megaphone"></i>
-            </div>
-            <div class="service-text">
-                <h3 class="h2">3</h3>
-                <p>c.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon">
-                <i class="icon-earth"></i>
-            </div>
-            <div class="service-text">
-                <h3 class="h2">4</h3>
-                <p>d.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon">
-                <i class="icon-cube"></i>
-            </div>
-            <div class="service-text">
-                <h3 class="h2">5</h3>
-                <p>e.
-                </p>
-            </div>
-        </div>
-
-        <div class="col-block service-item" data-aos="fade-up">
-            <div class="service-icon"><i class="icon-lego-block"></i></div>
-            <div class="service-text">
-                <h3 class="h2">6</h3>
-                <p>f.
-                </p>
+                <img src="{{ asset('images/principal/mappa_2.png') }}" style="height: 100%; width: 100%">
             </div>
         </div>
 

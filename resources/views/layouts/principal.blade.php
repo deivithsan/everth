@@ -59,7 +59,7 @@
             <ul class="header-nav__list">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#services" title="services">Que vamos a hacer</a></li>
+                <li><a class="smoothscroll"  href="#MAPPA" title="services">MAPPA</a></li>
                 <li><a class="smoothscroll"  href="#works" title="works">Galeria</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contactame</a></li>
             </ul>
