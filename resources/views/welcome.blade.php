@@ -126,7 +126,6 @@
 <!-- services
 ================================================== -->
 <section id='MAPPA' class="s-services" style="background-image: url('images/principal/mappa_l.png');">
-
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
         <div class="col-full">
             <div class="subhead">
@@ -134,10 +133,8 @@
             </div>
             <h1 class="display-2">MOVIMIENTO AMPLIO POR EL PROGRESO DEL ARCHIPIÉLAGO</h1>
         </div>
-    </div> <!-- end section-header -->
-
+    </div>
     <div class="row services-list block-1-2 block-tab-full">
-
         <div class="col-block service-item" data-aos="fade-up">
             <div class="service-text">
                 <img src="{{ asset('images/principal/mappa_1.png') }}" style="height: 100%; width: 100%">
@@ -148,41 +145,28 @@
                 <img src="{{ asset('images/principal/mappa_2.png') }}" style="height: 100%; width: 100%">
             </div>
         </div>
+    </div>
+</section>
 
-    </div> <!-- end services-list -->
-
-</section> <!-- end s-services -->
-
-
-<!-- works
-================================================== -->
 <section id='works' class="s-works">
-
     <div class="intro-wrap">
-
         <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Galeria</h3>
                 <h1 class="display-2 display-2--light">En esta sección encontraran las fotos mas recientes</h1>
             </div>
-        </div> <!-- end section-header -->
-
-    </div> <!-- end intro-wrap -->
-
+        </div>
+    </div>
     <div class="row works-content">
         <div class="col-full masonry-wrap">
             <div class="masonry">
-
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/1.jpg') }}" class="thumb-link" data-size="1050x700">
-                                <img src="{{ asset('images/principal/1.jpg') }}"
-                                     srcset="{{ asset('images/principal/1.jpg') }} 1x, {{ asset('images/principal/1.jpg') }}@2x.jpg 2x" alt="">
+                                <img src="{{ asset('images/principal/1.jpg') }}" srcset="{{ asset('images/principal/1.jpg') }} 1x, {{ asset('images/principal/1.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -191,28 +175,21 @@
                                 for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for everth.</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
+                </div>
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/3.jpg') }}" class="thumb-link" data-size="1050x700">
-                                <img src="{{ asset('images/principal/3.jpg') }}"
-                                     srcset="{{ asset('images/principal/3.jpg') }} 1x, {{ asset('images/principal/3.jpg') }}@2x.jpg 2x" alt="">
+                                <img src="{{ asset('images/principal/3.jpg') }}" srcset="{{ asset('images/principal/3.jpg') }} 1x, {{ asset('images/principal/3.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -221,28 +198,22 @@
                                 for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for.everth</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
+                </div>
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/4.jpg') }}" class="thumb-link" data-size="1050x700">
                                 <img src="{{ asset('images/principal/4.jpg') }}"
                                      srcset="{{ asset('images/principal/4.jpg') }} 1x, {{ asset('images/principal/4.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -251,28 +222,22 @@
                                for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for.everth.</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
+                </div>
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/5.jpg') }}" class="thumb-link" data-size="1050x700">
                                 <img src="{{ asset('images/principal/5.jpg') }}"
                                      srcset="{{ asset('images/principal/5.jpg') }} 1x, {{ asset('images/principal/5.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -281,28 +246,22 @@
                                 for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for.everth.</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
+                </div>
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/10.jpg') }}" class="thumb-link" data-size="1050x700">
                                 <img src="{{ asset('images/principal/10.jpg') }}"
                                      srcset="{{ asset('images/principal/10.jpg') }} 1x, {{ asset('images/principal/10.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -311,28 +270,22 @@
                                 for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for.everth.</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
+                </div>
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-
                         <div class="item-folio__thumb">
                             <a href="{{ asset('images/principal/12.jpg') }}" class="thumb-link" data-size="1050x700">
                                 <img src="{{ asset('images/principal/12.jpg') }}"
                                      srcset="{{ asset('images/principal/12.jpg') }} 1x, {{ asset('images/principal/12.jpg') }}@2x.jpg 2x" alt="">
                             </a>
                         </div>
-
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 for.everth
@@ -341,20 +294,16 @@
                                 for.everth
                             </p>
                         </div>
-
                         <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="icon-link"></i>
                         </a>
-
                         <div class="item-folio__caption">
                             <p>for.everth.</p>
                         </div>
-
                     </div>
-                </div> <!-- end masonry__brick -->
-
-            </div> <!-- end masonry -->
-        </div> <!-- end col-full -->
+                </div>
+            </div>
+        </div>
     </div> <!-- end works-content -->
 
 </section> <!-- end s-works -->
